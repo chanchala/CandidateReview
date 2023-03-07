@@ -2,6 +2,7 @@
 The app offers different applicants to review and user can either approve or reject.
 
 # How to start
+run `npm i`
 run `npm run dev` and visit `localhost:5173`
 
 # How to run tests
