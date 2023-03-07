@@ -1,8 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import styles from './CandidateDetails.module.scss';
 
-import CandidateDetails from './CandidateDetails';
 import { ICandidate } from '../../@types/candidate';
+import CandidateDetails from './CandidateDetails';
 
 const candidate: ICandidate = {
   id: {

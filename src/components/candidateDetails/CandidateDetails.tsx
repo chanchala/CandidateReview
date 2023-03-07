@@ -1,9 +1,9 @@
-import React, { FC, useContext, useState } from 'react';
+import React, { useContext, useState } from 'react';
 import {
   MdAlternateEmail,
-  MdSettingsCell,
-  MdPermPhoneMsg,
   MdLocationCity,
+  MdPermPhoneMsg,
+  MdSettingsCell,
 } from 'react-icons/md';
 import { ICandidate } from '../../@types/candidate';
 import CandidateContext from '../../context/candidateContext';

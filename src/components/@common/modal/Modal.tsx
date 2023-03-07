@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Modal.module.scss';
 import { RiCloseLine } from 'react-icons/ri';
 import Button from '../button/Button';
+import styles from './Modal.module.scss';
 
 interface ModalProps {
   action: (...args: any[]) => void;
