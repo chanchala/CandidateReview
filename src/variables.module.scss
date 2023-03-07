@@ -1,0 +1,17 @@
+$primary: #f44336;
+$secondary: #ffa501;
+$white: #fcfcfc;
+$border: #f1f1f1;
+$grey: #706d6d;
+$green: rgb(81, 123, 27);
+$radius: 0.2rem;
+
+:export {
+  secondary: $secondary;
+  primary: $primary;
+  radius: $radius;
+  white: $white;
+  border: $border;
+  grey: $grey;
+  green: $green;
+}

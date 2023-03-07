@@ -1,0 +1,92 @@
+@use '../../variables.module.scss' as variable;
+
+.wrapper {
+  display: flex;
+  flex: 1;
+  .candidateDetails {
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+    .candidate {
+      flex: 2;
+      display: flex;
+      border-right: 4px solid variable.$secondary;
+
+      .image img {
+        border-radius: 24px 0 0 24px;
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        margin: 0 1rem;
+        color: variable.$grey;
+        line-height: 1.5rem;
+        .name {
+          color: #2f2e2e;
+          font-weight: bold;
+        }
+
+        .infoItem {
+          align-items: center;
+          display: flex;
+        }
+      }
+
+      svg {
+        color: variable.$secondary;
+        margin-right: 0.2rem;
+      }
+    }
+  }
+  .action {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    .comment {
+      flex: 1;
+      padding: 1rem;
+
+      textarea {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        padding: 0.5rem;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+          rgba(0, 0, 0, 0.24) 0px 1px 2px;
+      }
+    }
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .candidate,
+  .action,
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .candidate {
+    border-right: 0 !important;
+    border-bottom: 4px solid variable.$secondary;
+  }
+
+  .buttons {
+    flex-direction: row !important;
+    gap: 1rem;
+  }
+
+  .image {
+    display: none;
+  }
+}
