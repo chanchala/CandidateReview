@@ -10,6 +10,8 @@ run `npm run dev` and visit `localhost:5173`
 
 # Technologies Used
 `HTML5`, `SCSS`, `REACT`, `React_Queries`, `React`, `Context API`, `Vite`, `React testing library`, `Vitest`, `classnames`
+# click candidate in the list to Undo and see comment
+![Screenshot 2023-03-07 at 3 33 14 PM](https://user-images.githubusercontent.com/4497388/223569040-ddce9e4a-7165-459c-b31c-673526b4a1c5.jpg)
 
 # Big Screen
 ![Screenshot 2023-03-07 at 3 30 04 PM](https://user-images.githubusercontent.com/4497388/223568419-ad87a725-9e2c-45e3-a4ef-25e07b4f1ee9.jpg)
