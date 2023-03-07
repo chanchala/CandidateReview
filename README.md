@@ -17,8 +17,6 @@ run `npm run dev` and visit `localhost:5173`
 ![Screenshot 2023-03-07 at 3 30 04 PM](https://user-images.githubusercontent.com/4497388/223568419-ad87a725-9e2c-45e3-a4ef-25e07b4f1ee9.jpg)
 
 # Mobile
-<img src="[https://your-image-url.type](https://user-images.githubusercontent.com/4497388/223568559-8697e5fb-e8b6-4be0-b7e8-c3108a9c56fd.jpg)" width="100"/>
-
 ![Screenshot 2023-03-07 at 3 30 45 PM](https://user-images.githubusercontent.com/4497388/223568559-8697e5fb-e8b6-4be0-b7e8-c3108a9c56fd.jpg)
 
 # Ipad
