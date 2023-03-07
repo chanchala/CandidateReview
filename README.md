@@ -9,4 +9,4 @@ run `npm run dev` and visit `localhost:5173`
 `npm run coverage`
 
 # Technologies Used
-HTML5, SCSS, REACT, React_Queries, React Context API, Vite, React testing library, Vite, Vitest, classnames
+`HTML5`, `SCSS`, `REACT`, `React_Queries`, `React`, `Context API`, `Vite`, `React testing library`, `Vitest`, `classnames`
